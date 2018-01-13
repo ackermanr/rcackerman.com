@@ -24,3 +24,6 @@
 config/deploy.rb
 Gemfile.lock
 config/secrets.yml
+
+# Ignore application configuration
+/config/application.yml

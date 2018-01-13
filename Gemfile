@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'rails', '4.2.4'
+gem 'rails', '5.1.3'
 gem 'mysql2', '~> 0.3.18'
 gem 'sass-rails', '~> 5.0'
 gem 'bootstrap-sass', '~> 3.2.0'
@@ -8,12 +8,11 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
-gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'slim-rails'
 gem 'devise'
-gem 'cancancan'
 gem 'paperclip'
 gem 'puma'
+gem 'figaro'
 
 group :development, :test do
   gem 'pry-rails'
@@ -24,7 +23,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'guard-rspec'
   gem 'database_cleaner'
-  gem 'factory_girl_rails'
+  gem 'factory_bot_rails'
   gem 'faker'
 end
 
